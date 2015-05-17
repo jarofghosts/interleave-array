@@ -1,0 +1,26 @@
+{
+  "name": "interleave-array",
+  "version": "1.0.0",
+  "description": "interleave values from arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarofghosts/interleave-array.git"
+  },
+  "keywords": [
+    "interleave",
+    "array"
+  ],
+  "author": "jesse keane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarofghosts/interleave-array/issues"
+  },
+  "homepage": "https://github.com/jarofghosts/interleave-array#readme",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
