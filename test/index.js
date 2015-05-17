@@ -18,4 +18,15 @@ test('truncates to shortest length', function(t) {
   t.end()
 })
 
-test('
+test('types do not matter', function(t) {
+  var arr1 = [[1, 2], [3, 4], [5, 6]]
+    , arr2 = [{a: 1}, {b: 2}, {c: 3}]
+    , arr3 = ['cat', 'dog', 'bird']
+
+  t.deepEqual(
+      interleave(arr1, arr2, arr3)
+    , [[1, 2], {a: 1}, 'cat', [3, 4], {b: 2}, 'dog', [5, 6], {c: 3}, 'bird']
+  )
+
+  t.end()
+})

@@ -4,7 +4,7 @@
   "description": "interleave values from arrays",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "covert test/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/jarofghosts/interleave-array#readme",
   "devDependencies": {
+    "covert": "^1.1.0",
     "tape": "^4.0.0"
   }
 }
