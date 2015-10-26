@@ -1,7 +1,10 @@
 # interleave-array
 
-[![Build Status](http://img.shields.io/travis/jarofghosts/interleave-array.svg?style=flat)](https://travis-ci.org/jarofghosts/interleave-array)
-[![npm install](http://img.shields.io/npm/dm/interleave-array.svg?style=flat)](https://www.npmjs.org/package/interleave-array)
+[![Build Status](https://img.shields.io/travis/jarofghosts/interleave-array.svg?style=flat-square)](https://travis-ci.org/jarofghosts/interleave-array)
+[![npm install](https://img.shields.io/npm/dm/interleave-array.svg?style=flat-square)](https://www.npmjs.org/package/interleave-array)
+[![npm version](https://img.shields.io/npm/v/interleave-array.svg?style=flat-square)](https://www.npmjs.org/package/interleave-array)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard)
+[![License](https://img.shields.io/npm/l/interleave-array.svg?style=flat-square)](https://github.com/jarofghosts/interleave-array/blob/master/LICENSE)
 
 interleaves values from arrays into a new array
 
