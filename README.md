@@ -16,6 +16,15 @@ var interleave = require('interleave-array')
 interleave(['a', 'b', 'c'], [1, 2, 3]) // ['a', 1, 'b', 2, 'c', 3]
 ```
 
+## notes
+
+interleaving is truncated at the length of the shortest provided array. for
+example:
+
+```js
+interleave([1, 3], [2]) // [1, 2]
+```
+
 ## license
 
 MIT
