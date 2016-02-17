@@ -8,7 +8,7 @@
 
 interleaves values from arrays into a new array
 
-## Examples
+## examples
 
 ```javascript
 var interleave = require('interleave-array')
@@ -17,23 +17,21 @@ interleave(['a', 'b', 'c'], [1, 2, 3])
 // => ['a', 1, 'b', 2, 'c', 3]
 ```
 
-It also works with more than two arrays and different types of objects::
+it also works with more than two arrays and different types of objects:
 
 ```javascript
 interleave([[1, 2], [3, 4], [5, 6]],
            [{a: 1}, {b: 2}, {c: 3}]
            ['cat', 'dog', 'bird']
-
 // => [[1, 2], {a: 1}, 'cat', [3, 4], {b: 2}, 'dog', [5, 6], {c: 3}, 'bird']
 ```
-
-## notes
 
 interleaving is truncated at the length of the shortest provided array. for
 example:
 
 ```js
-interleave([1, 3], [2]) // [1, 2]
+interleave([1, 3], [2])
+// => [1, 2]
 ```
 
 ## license
