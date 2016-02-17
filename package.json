@@ -1,6 +1,6 @@
 {
   "name": "interleave-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "interleave values from arrays",
   "main": "index.js",
   "scripts": {
