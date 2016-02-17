@@ -34,6 +34,10 @@ interleave([1, 3], [2])
 // => [1, 2]
 ```
 
+## see also
+
+[`loose-interleave`](https://github.com/jarofghosts/loose-interleave) is similar but does not truncate to shortest.
+
 ## license
 
 MIT
