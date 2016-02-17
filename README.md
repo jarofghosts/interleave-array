@@ -8,12 +8,23 @@
 
 interleaves values from arrays into a new array
 
-## example
+## Examples
 
 ```javascript
 var interleave = require('interleave-array')
 
-interleave(['a', 'b', 'c'], [1, 2, 3]) // ['a', 1, 'b', 2, 'c', 3]
+interleave(['a', 'b', 'c'], [1, 2, 3])
+// => ['a', 1, 'b', 2, 'c', 3]
+```
+
+It also works with more than two arrays and different types of objects::
+
+```javascript
+interleave([[1, 2], [3, 4], [5, 6]],
+           [{a: 1}, {b: 2}, {c: 3}]
+           ['cat', 'dog', 'bird']
+
+// => [[1, 2], {a: 1}, 'cat', [3, 4], {b: 2}, 'dog', [5, 6], {c: 3}, 'bird']
 ```
 
 ## license
