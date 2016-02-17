@@ -27,6 +27,15 @@ interleave([[1, 2], [3, 4], [5, 6]],
 // => [[1, 2], {a: 1}, 'cat', [3, 4], {b: 2}, 'dog', [5, 6], {c: 3}, 'bird']
 ```
 
+## notes
+
+interleaving is truncated at the length of the shortest provided array. for
+example:
+
+```js
+interleave([1, 3], [2]) // [1, 2]
+```
+
 ## license
 
 MIT
